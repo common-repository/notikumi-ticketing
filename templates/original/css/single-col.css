@@ -1,0 +1,151 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+ .list-cards {
+    display:flex;
+    flex-wrap: wrap;
+
+    margin-right: -15px;
+    margin-left: -15px;
+ }
+
+.list-cards .card-event-container {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.list-cards .card-event .card-event__main-content {
+	width:70%;
+	display: flex;
+}
+
+@media (max-width: 768px) {
+	.list-cards .card-event-container .card-event {
+		flex-direction: column;
+	}
+	.list-cards .card-event-container .card-event .card-event__main-image {
+		flex-basis: 100%;
+		width:100%;
+	}
+	.list-cards .card-event-container .card-event .card-event__main-image .image {
+		width:100%;
+	}
+	.list-cards .card-event .card-event__main-content {
+		flex-basis: 100%;
+		width:100%;
+		display: block;
+	}
+	
+}
+@media (min-width: 768px) and (max-width: 990px) {
+	
+}
+@media (min-width: 990px) {
+	
+}
+
+.list-cards .card-event {
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, .15);
+	margin-bottom: 25px;
+	transition: all .5s ease;
+	position: relative;
+	display:flex;
+}
+
+.list-cards .card-event:hover {
+	transform: translateY(-10px) scale(1.02);
+	box-shadow: 0 15px 10px rgba(0, 0, 0, .15)
+}
+
+.list-cards .card-event .card-event__main-image  {
+	width: 30%;
+}
+
+.list-cards .card-event .card-event__main-image .image {
+	height: 100%;
+	background-size: cover;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	border-radius: 5px 5px 0 0;
+	min-height: 150px;
+}
+
+
+
+
+.list-cards .card-event .card-event__main-content .text-container {
+	padding: 0 15px;
+	font-weight: 500;
+	flex-grow: 2;
+}
+
+.list-cards .card-event .text-container h2::before {
+	content:'';
+	display: none;
+}
+
+.list-cards .card-event a {
+	text-decoration: none;
+}
+
+
+.list-cards .card-event .event {
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 20px;
+	margin: 15px 0 10px
+}
+.list-cards .card-event.card-event-cancel .event {
+	text-decoration: line-through;
+}
+
+.list-cards .card-event .location {
+	font-size: 14px
+}
+
+.list-cards .card-event .date {
+	font-size: 14px
+}
+
+.list-cards .card-event .cancel-box {
+	margin-top: 0.5rem;
+	padding: 1rem;
+	text-align: center;
+}
+.list-cards .card-event .cancel-box h4 {
+	margin-bottom: 0;
+}
+.list-cards .card-event .buy-container {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	padding: 15px;
+	margin-top: 0px;
+	-ms-flex-align: center;
+	align-items: center;
+	border-top: 1px solid #efeaea
+}
+
+.comment-form .list-cards .card-event .buy-container input[type=submit],
+.search-form .list-cards .card-event .buy-container .search-submit,
+.list-cards .card-event .buy-container .btn,
+.list-cards .card-event .buy-container .comment-form input[type=submit],
+.list-cards .card-event .buy-container .search-form .search-submit {
+	position: relative;
+	z-index: 2
+}
+
+.list-cards .btn-center {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+

@@ -1,0 +1,5 @@
+Create a local repository
+ git svn clone https://plugins.svn.wordpress.org/notikumi-ticketing/
+
+
+See etc/deploy-svn.sh

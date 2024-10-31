@@ -1,0 +1,130 @@
+.event-detail {
+    display: flex;
+    justify-content: center;
+}
+
+
+.event-detail-container {
+	width:100%;
+}
+
+.event__section .card-event__main-content .main-info-container {
+	flex-grow: 2;
+}
+
+.event__section .card-event__main-content {
+	display: flex;
+	min-width: 70%;
+	flex: 1 1 100%;
+	flex-direction: row-reverse;
+}
+.event__section .card-event__main-content .card-event__main-image {
+	flex-basis: 30%;
+	flex-grow: 1;
+	margin: 0 0 2rem 1rem;
+	text-align: right;
+}
+
+.event__section  .card-event__main-image img {
+	max-height: 400px;
+    max-width: inherit;
+}
+
+.event-cancel .entry-title {
+	text-decoration: line-through;
+}
+
+
+@media (max-width: 768px) {
+	.event-detail-container {
+		max-width: 100%;
+	}
+	.entry-title {
+		text-align: center;
+	}
+	.event__section .card-event__main-content {
+		flex-direction: column;
+		text-align: center;
+	}
+	.event__section .card-event__main-content .card-event__main-image {
+		margin: 0;
+		text-align: inherit;
+		overflow: hidden;
+		max-height: 400px;
+	}
+	.event__section .card-event__main-content .card-event__main-image img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+
+	.event__section .card-event__main-content .main-info-container {
+		margin-top: 1rem;
+	}
+
+	.event__section__contents #checkout_target {
+		padding: 0.5rem;
+	}
+}
+@media (min-width: 768px) {
+	.event-detail-container {
+		max-width: 66.6666666667%;
+	}
+	.event__section__contents #checkout_target {
+		padding: 1rem;
+	}
+}
+
+.event__section .card-event__main-content .main-info {
+	line-height: 1.5;
+}
+.event__section .card-event__main-content .secondary-info {
+	font-size: 80%;
+    margin-left: 28px;
+    line-height: 1.1;
+}
+.event__section .card-event__main-content .has-icons::before {
+    width: auto;
+	height: auto;
+    margin-right: 5px;
+	text-align: center;
+	font-size: inherit;
+	line-height: inherit;
+}
+
+.event__section .card-event__main-content .date {
+	margin-top: 0.5rem;
+}
+
+.card-event__description {
+	margin-top: 1rem;
+}
+
+.card-event__description .extra_text {
+	display: inline;
+}
+
+.event__section.buy-container {
+	margin: 2rem 0 2rem 0;
+}
+.event__section__title {
+	padding: 0.5rem;
+	cursor: pointer;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+.event__section__contents #checkout_target {
+	border: 1px solid #eaeaea;
+	display: none;
+}
+
+.event__section__title .dashicons-before::before{
+	/*padding: 6px 0;*/
+}
+
+.cancel-box {
+	margin-top: 1.5rem;
+}
+.cancel-box h4 {	
+	padding: 1rem;
+}

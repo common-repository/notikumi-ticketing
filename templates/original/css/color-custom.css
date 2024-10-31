@@ -1,0 +1,90 @@
+/* Color principal de fuente */
+.list-cards .card-event .event, 
+.event-detail .entry-title, 
+.page-id--99 .entry-title  {
+  color: #ed1c24;
+}
+
+.page-id--99 .main-info {
+  
+}
+
+/* Color secundario de fuente */
+.list-cards .card-event .location, 
+.event__section .location .location__address, 
+.event__section .date .opening_doors {
+	color: #5c5c5c;
+}
+
+/* Color tercierrio de fuente */
+.list-cards .card-event .date {
+	color: #afafaf;
+}
+
+/* Botón comprar */
+.btn.btn-primary.btn-main, 
+.btn.btn-primary.btn-main, 
+.btn.btn-primary.btn-main:visited { 
+  color: #ffffff; 
+  background-color: #f0494f; 
+  border-color: #f0494f; 
+  background-image: none;
+  box-shadow: none;
+  text-shadow: none;
+} 
+
+.btn.btn-primary.btn-main:hover, 
+.btn.btn-primary.btn-main:focus, 
+.btn.btn-primary.btn-main:active, 
+.btn.btn-primary.btn-main.active, 
+.open .dropdown-toggle.btn.btn-primary.btn-main { 
+  color: #f0494f; 
+  background-color: transparent; 
+  border-color: #f0494f; 
+} 
+   
+.btn.btn-primary.btn-main:active, 
+.btn.btn-primary.btn-main.active, 
+.open .dropdown-toggle.btn.btn-main { 
+  background-image: none; 
+} 
+   
+.btn.btn-primary.btn-main.disabled, 
+.btn.btn-primary.btn-main[disabled], 
+fieldset[disabled] .btn.btn-primary.btn-main, 
+.btn.btn-primary.btn-main.disabled:hover, 
+.btn.btn-primary.btn-main[disabled]:hover, 
+fieldset[disabled] .btn.btn-primary.btn-main:hover, 
+.btn.btn-primary.btn-main.disabled:focus, 
+.btn.btn-primary.btn-main[disabled]:focus, 
+fieldset[disabled] .btn.btn-primary.btn-main:focus, 
+.btn.btn-primary.btn-main.disabled:active, 
+.btn.btn-primary.btn-main[disabled]:active, 
+fieldset[disabled] .btn.btn-primary.btn-main:active, 
+.btn.btn-primary.btn-main.disabled.active, 
+.btn.btn-primary.btn-main[disabled].active, 
+fieldset[disabled] .btn.btn-primary.btn-main.active,
+.btn.btn-primary.btn-main:active:hover,
+.open > .dropdown-toggle.btn.btn-primary.btn-main:hover, 
+.btn.btn-primary.btn-main:active:focus, 
+.btn.btn-primary.btn-main.active:focus,
+.open > .dropdown-toggle.btn.btn-primary.btn-main:focus, 
+.btn.btn-primary.btn-main:active.focus, 
+.btn.btn-primary.btn-main.active.focus,
+.open > .dropdown-toggle.btn.btn-primary.btn-main.focus { 
+  color: #ffffff;
+  background-color: #f0494f; 
+  border-color: #f0494f; 
+} 
+
+.btn.btn-primary.btn-main .badge { 
+  color: #f0494f; 
+  background-color: #ffffff; 
+}
+
+/* Titulo en Acordeon  */
+.event__section .event__section__title {
+	background-color:#f0494f;
+  border-bottom: 1px solid #aaa;
+  color: #fff;
+}

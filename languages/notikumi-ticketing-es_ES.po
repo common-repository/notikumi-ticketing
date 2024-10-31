@@ -1,0 +1,155 @@
+# Copyright (C) 2019 notikumi
+# This file is distributed under the same license as the Notikumi Ticketing plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Notikumi Ticketing 1.1.6\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/notikumi-"
+"ticketing\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-09-06T09:25:29+02:00\n"
+"PO-Revision-Date: 2019-09-06 09:31+0200\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Domain: notikumi-ticketing\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: es_ES\n"
+
+#. Plugin Name of the plugin
+msgid "Notikumi Ticketing"
+msgstr ""
+
+#. Description of the plugin
+msgid "Show your events and tickets ready to be sold in your wordpress page."
+msgstr ""
+
+#. Author of the plugin
+msgid "notikumi"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://pro.notikumi.com"
+msgstr ""
+
+#: admin/partials/credentials.php:39
+msgid "settings saved."
+msgstr ""
+
+#: admin/partials/credentials.php:50 admin/partials/events.php:221
+msgid "Configuration Notikumi Plugin"
+msgstr ""
+
+#: admin/partials/credentials.php:59
+msgid "Email de acceso a notikumi"
+msgstr ""
+
+#: admin/partials/credentials.php:65
+msgid "Contraseña de notikumi"
+msgstr ""
+
+#: admin/partials/events.php:114
+msgid "Shortcode #"
+msgstr ""
+
+#: admin/partials/events.php:257
+msgid "Contenido"
+msgstr ""
+
+#: admin/partials/events.php:268
+msgid "Temporalidad"
+msgstr ""
+
+#: admin/partials/events.php:278
+msgid "Tipo de agenda"
+msgstr ""
+
+#: admin/partials/events.php:291
+msgid "Artists"
+msgstr ""
+
+#: admin/partials/events.php:297
+msgid "Venues"
+msgstr ""
+
+#: admin/partials/events.php:303
+msgid "Organizations"
+msgstr ""
+
+#: admin/partials/events.php:309
+msgid "Users"
+msgstr ""
+
+#: admin/partials/events.php:315
+msgid "Evento"
+msgstr ""
+
+#: admin/partials/events.php:321
+msgid "Canal contenido:"
+msgstr ""
+
+#: admin/partials/events.php:333
+msgid "Canal de venta de entradas"
+msgstr ""
+
+#: admin/partials/events.php:345
+msgid "Layout"
+msgstr ""
+
+#: admin/partials/events.php:362
+msgid "Cantidad en listado"
+msgstr ""
+
+#: admin/partials/events.php:376
+msgid "Mostrar título en página de evento"
+msgstr ""
+
+#: admin/partials/events.php:384
+msgid "Ruta de página los eventos"
+msgstr ""
+
+#: admin/partials/events.php:398
+msgid "Custom CSS para checkout"
+msgstr ""
+
+#: admin/partials/templates.php:75
+msgid "CSS Template restored."
+msgstr ""
+
+#: admin/partials/templates.php:90
+msgid "CSS Custom Templates saved."
+msgstr ""
+
+#: admin/partials/templates.php:112
+msgid "CSS Layout Templates saved."
+msgstr ""
+
+#: admin/partials/templates.php:164
+msgid "Customizing Design"
+msgstr ""
+
+#: includes/class-notikumi-render-helper.php:81
+msgid "Apertura de puertas"
+msgstr ""
+
+#: includes/class-notikumi-render-helper.php:156
+msgid "Evento cancelado"
+msgstr ""
+
+#: templates/original/php/event-page.php:34
+msgid "Múltiples sesiones"
+msgstr ""
+
+#: templates/original/php/event-page.php:49
+msgid "Entradas"
+msgstr ""
+
+#: templates/original/php/event-page.php:62 templates/original/php/grid.php:7
+msgid "Venta de entradas no activa"
+msgstr ""
+
+#: templates/original/php/single-col.php:55
+#: templates/original/php/three-cols.php:52
+msgid "Comprar entradas"
+msgstr ""
